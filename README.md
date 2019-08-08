@@ -2,6 +2,8 @@ Test case showing how two staticlib crates can define a global_allocator each
 and end up using the other's when everything is linked together, with neither
 the rust compiler nor the linker raising an eyebrow.
 
+Run `make` in the top-level directory.
+
 Some details:
 -------------
 
